@@ -1,2 +1,21 @@
-Difference between HTTP1.1 vs HTTP2
+Topic- Difference between HTTP1.1 vs HTTP2
+
+
+HTTP is a data communications protocol and acts as the foundation of the World Wide Web. HTTP stands for hypertext transfer protocol 
+
+HTTP1.1 was created in 1997 and http2 was created on 2015.
+
+In HTTP/2, data is sent all at once, but http1.1 sends the data one by one.
+
+HTTP/1.1 loads resources one after the other where as HTTP2 is able to use a single TCP(Transmission Control Protocol)connection to send multiple streams of data at once.
+
+http2 is faster and more efficient than http1.1
+
+HTTP/2 offers a feature called weighted prioritization which allows the client to decide which contents should given more priority and to be loaded first. 
+
+http1.1 compresses data by itself where as http2 uses HPACK for data compression.
+
+http1.1 gives data to the client only after asking where as http2 push the contents to client even before asking for them. 
+
+HTTP 1.1 uses plain text to encode and transmit data. which is easy to read and understand the data. HTTP 2 uses a series of binary codes to encode and transmit data rather than plain text.
 

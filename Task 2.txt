@@ -1,1 +1,21 @@
-Objects and its internal representation in Javascript
+ Topic - Objects and its internal representation in Javascript
+
+
+Object is the most important data-type and  it forms the building blocks for JavaScript.
+
+It  may contain any combination of primitive data-types (Number, String, Boolean, null, undefined and symbol) and reference data-types.
+
+Objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. 
+These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+
+Every object has some property associated with some value. These values can be accessed using these properties associated with them.
+
+A property of an object can be explained as a variable that is attached to the object. 
+
+You access the properties of an object with a simple dot-notation or bracket notation. 
+
+A property name that has a space or a hyphen, or that starts with a number can only be accessed using the square bracket notation.
+
+Both the object name and property name are case sensitive.
+
+Objects are sometimes called associative arrays, since each property is associated with a string value that can be used to access it.
